@@ -1,0 +1,19 @@
+/*!
+ * Author: Piotr Bienias
+ * Project: bbcms
+ * Copyright (c) 2019.
+ */
+
+.NotAllowedCol {
+  min-height: 400px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  .NotAllowedIcon {
+    font-size: 36px;
+    color: #ff4c3f;
+    margin-bottom: 15px;
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist",
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "module": "commonjs",
+    "target": "es6",
+    "jsx": "react",
+    "allowJs": true,
+    "baseUrl": ".",
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "lib": ["dom"],
+    "paths": {
+      "*":                    ["node_modules/*"],
+      "@utils/*":             ["src/utils/*"],
+      "@containers/*":        ["src/containers/*"],
+      "@components/*":        ["src/components/*"],
+      "@config/*":            ["src/config/*"]
+    }
+  },
+  "include": ["./src/**/*"],
+  "exclude": ["node_modules"]
+}
